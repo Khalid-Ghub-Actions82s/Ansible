@@ -1,5 +1,12 @@
-- name: ping server
-  hosts: frontend
-  tasks:
-  - name: ping
-  ansible.builtin.ping:
+- name: Ping server
+  hosts: frontend #Refer to inventory
+  tasks: #to perform any specific task
+   - name: ping
+     ansible.builtin.ping:
+
+
+# - name: Ping server
+#   hosts: frontend
+#   tasks:
+#     - name: Ping the target host
+#       ansible.builtin.ping:
