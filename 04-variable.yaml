@@ -1,6 +1,6 @@
 - name: print variables
   hosts: localhost
-  coonection: local
+  connection: local
   vars:
     COURSE: Aws Devops
     DURATION: 120 hrs
