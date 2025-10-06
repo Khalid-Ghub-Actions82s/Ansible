@@ -5,6 +5,7 @@
     COURSE: Aws Devops
     DURATION: 120 hrs
   tasks:
+  - name: print course information
     vars:
     COURSE: azure devops
     ansible.builtin.debug:
