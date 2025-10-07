@@ -5,11 +5,12 @@
    course: "aws Devops" #String
    Duration: 120 #number
    is-live: true # boolean
-  tools:
-  - Aws
-  - azure
-  concepts:
+   tools: # list
+   - Aws
+   - Linux
+  concepts: #disctionary
     cloud: aws
+    tools: devops
   tasks:
   - name: print the Datatypes
     ansible.builtin.debug:
