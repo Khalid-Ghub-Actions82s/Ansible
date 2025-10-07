@@ -1,0 +1,16 @@
+- name: print prompt variables
+  hosts: local
+  connection: local
+  vars:
+   course: "aws Devops" #String
+   Duration: 120 #number
+   is-live: true # boolean
+  lists:
+  - Aws
+  - azure
+  concepts:
+    cloud: aws
+  tasks:
+  - name: print the Datatypes
+    ansible.builtin.debug:
+      msg: "course is : {{course}},Duration is:{{Duration}},lists:{{lists}},concepts is: {{concepts}}
