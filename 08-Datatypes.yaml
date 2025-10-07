@@ -8,7 +8,7 @@
    tools: # list
    - Aws
    - Linux
-  concepts: #disctionary
+   concepts: #disctionary
     cloud: aws
     tools: devops
   tasks:
