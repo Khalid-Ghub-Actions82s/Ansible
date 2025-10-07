@@ -4,7 +4,7 @@
   vars:
    course: "aws Devops" #String
    Duration: 120 #number
-   is-live: true # boolean
+   is_live: true #boolean
    tools: # list
    - Aws
    - Linux
