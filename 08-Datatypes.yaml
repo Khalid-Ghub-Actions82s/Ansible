@@ -13,4 +13,4 @@
   tasks:
   - name: print the Datatypes
     ansible.builtin.debug:
-      msg: "course is : {{course}},Duration is:{{Duration}},lists:{{lists}},concepts is: {{concepts}}""
+      msg: "course is : {{course}},Duration is:{{Duration}},lists:{{lists}},concepts is: {{concepts}}"
